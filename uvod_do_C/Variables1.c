@@ -13,23 +13,23 @@
  *  vypisovanie premenny typu integer pomocou printf
  *
  */
+#include <stdio.h>
 
- int main(void)
- {
-     // Premenna numOfLives je ako suflik, kde som si nechal cislo 10
-     // numOfLives moze byt len cele cislo, preto integer (int)
-     int numOfLives = 10;
+int main(void)
+{
+    // Premenna numOfLives je ako suflik, kde som si nechal cislo 10
+    // numOfLives moze byt len cele cislo, preto integer (int)
+    int numOfLives = 10;
 
-     // Vypisanie premennej numOfLives na obrazovku
-     // na vypisanie integeru pouzivame "placeholde" %i alebo %d.
-     printf("Pocet zivotov je %i\n", numOfLives);
+    // Vypisanie premennej numOfLives na obrazovku
+    // na vypisanie integeru pouzivame "placeholde" %i alebo %d.
+    printf("Pocet zivotov je %i\n", numOfLives);
 
-     numOfLives = numOfLives + 5;
-     printf("Pocet zivotov je %i\n", numOfLives);
+    numOfLives = numOfLives + 5;
+    printf("Pocet zivotov je %i\n", numOfLives);
 
-     // V printf mozeme mat viac vypisov na obrazovku
-     // premenne musia byt oddelene ciarkou
-     int numOfAmmo = 1000;
-     printf("Pocet zivotov je %i a municia je %d\n", numOfLives, numOfAmmo);
-
- }
+    // V printf mozeme mat viac vypisov na obrazovku
+    // premenne musia byt oddelene ciarkou
+    int numOfAmmo = 1000;
+    printf("Pocet zivotov je %i a municia je %d\n", numOfLives, numOfAmmo);
+}

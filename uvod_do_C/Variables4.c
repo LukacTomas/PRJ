@@ -13,17 +13,17 @@
  *  vypisovanie premenny typu float a double pomocou printf
  *
  */
+#include <stdio.h>
 
- int main(void)
- {
-     float PI = 3.1415;
-     printf("Vypisujem cislo pi ako %f\n", PI);
+int main(void)
+{
+    float PI = 3.1415;
+    printf("Vypisujem cislo pi ako %f\n", PI);
 
-     // Placeholder %.25f povie vypis na 25 desatinnych miest
-     double chargeOfElectron = 1.602e-19;
-     printf("Naboj elektronu je %.25f\n", chargeOfElectron);
+    // Placeholder %.25f povie vypis na 25 desatinnych miest
+    double chargeOfElectron = 1.602e-19;
+    printf("Naboj elektronu je %.25f\n", chargeOfElectron);
 
-     // Pre vypisanie vo vedeckej notacii pouzijeme %e
-     printf("Naboj elektronu je %e\n", chargeOfElectron);
-
- }
+    // Pre vypisanie vo vedeckej notacii pouzijeme %e
+    printf("Naboj elektronu je %e\n", chargeOfElectron);
+}

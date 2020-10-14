@@ -13,14 +13,15 @@
  *  vypisovanie premenny typu long a long long pomocou printf
  *
  */
+#include <stdio.h>
 
- int main(void)
- {
-     // Na vypis long pouzivame %li
-     long numberOfPoints = 131071100;
-     printf("Pocet bodov %li\n", numberOfPoints);
+int main(void)
+{
+    // Na vypis long pouzivame %li
+    long numberOfPoints = 131071100;
+    printf("Pocet bodov %li\n", numberOfPoints);
 
-     // Na vypis long long pouzivame %lli
-     long long starsInGalaxy = 100000000000;
-     printf("Pocet hviezd v Mliecnej ceste je asi %lli\n", starsInGalaxy);
- }
+    // Na vypis long long pouzivame %lli
+    long long starsInGalaxy = 100000000000;
+    printf("Pocet hviezd v Mliecnej ceste je asi %lli\n", starsInGalaxy);
+}
