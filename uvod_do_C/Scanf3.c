@@ -1,15 +1,15 @@
 /**
- * Subor:   Cvicenie.c
+ * Subor:   Scanf3.c
  *
  * Autor1:  Tomas Lukac (lukac@fajnorka.sk)
- * Datum:   04. oktobra 2020
+ * Datum:   14. oktobra 2020
  * Partner: Pracoval som sám
  * Predmet: PRJ 2020
  * Trieda:  Učiteľ
  *
  * Opis suboru:
  *
- *  Napisme program, ktory spocita obsah a obvod kruhu.
+ *  Program na demonosnstraciu scanf
  *
  */
 #include <stdio.h>
